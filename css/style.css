@@ -1,1 +1,411 @@
-/* No CSS */
+@charset "UTF-8";
+/*Обнуление*/
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+html,
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0px auto;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+ul,
+li {
+  font-family: "Jost", sans-serif;
+}
+
+h1 {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 110%;
+  text-transform: uppercase;
+  color: #081455;
+}
+
+.header {
+  padding: 54px 0px 0px 0px;
+}
+
+.header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header ul a {
+  color: #9c9ead;
+}
+
+.header ul li {
+  margin: 0px 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  /* identical to box height, or 29px */
+  text-align: center;
+  /* text */
+}
+
+.header .logo {
+  margin: -6px 0px 0px 0px;
+}
+
+.header .nav {
+  margin: 0px 0px 0px -7px;
+}
+
+.header .button {
+  display: block;
+  background: #02ade3;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #f8f8f8;
+  padding: 14.5px 49px 14.5px 71px;
+}
+
+.header .button span {
+  position: relative;
+}
+
+.header .button span::before {
+  content: "";
+  width: 12px;
+  height: 13px;
+  position: absolute;
+  left: -22px;
+  top: 0px;
+  background: url("../img/signin.svg");
+}
+
+.intro {
+  padding: 123px 0px 0px 0px;
+}
+
+.intro .container {
+  max-width: 1180px;
+}
+
+.intro span {
+  display: block;
+  margin: -2px 0px 0px 0px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+  letter-spacing: -0.02em;
+  color: #02ade3;
+}
+
+.intro h1 {
+  margin: 30px 0px 0px -5px;
+}
+
+.intro .introform {
+  margin: 60px 0px 0px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.intro .introform .email {
+  padding: 17px 0px 13px 50px;
+  border: 1px solid #dadade;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #9c9ead;
+}
+
+.intro .introform .submit {
+  padding: 17px 30px;
+  background: #02ade3;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.approach {
+  margin: 132px 0px 0px 0px;
+  background: #f9f9f9;
+  padding: 100px 0px 60px 0px;
+}
+
+.approach span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #02ade3;
+}
+
+.approach h2 {
+  margin: 20px 0px 0px 0px;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #081455;
+}
+
+.approach h4 {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #02ade3;
+}
+
+.approach p {
+  margin: 20px 0px 0px 0px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #9c9ead;
+  max-width: 280px;
+}
+
+.approach .title {
+  margin: 0px 0px 38px 0px;
+  padding: 0px 0px 70px 0px;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.approach .row {
+  margin: 0px 0px 40px 0px;
+}
+
+.approach .wrap {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.approach .wrap.end {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.approach .item {
+  width: 280px;
+}
+
+.approach .item.ttt {
+  margin: 0px 0px 0px 10px;
+}
+
+.approach .item.rrr {
+  margin: 0px 10px 0px 0px;
+}
+
+.how {
+  margin: 180px 0px 0px 0px;
+}
+
+.how .title span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #02ade3;
+}
+
+.how .title h2 {
+  margin: 20px 0px 70px 0px;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #081455;
+}
+
+.how .wrapper {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.how .row {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.how .item {
+  min-height: 301px;
+  margin: 0px 0px 20px 0px;
+  padding: 40px;
+  max-width: 580px;
+  background: #f9f9f9;
+}
+
+.how .item span {
+  margin: 2px 0px 0px 0px;
+  display: block;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #02ade3;
+}
+
+.how .item h4 {
+  margin: 13px 0px 0px 0px;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #02ade3;
+}
+
+.how .item p {
+  margin: 10px 0px 0px 0px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #9c9ead;
+}
+
+.how .item p.over {
+  margin: 16px 0px 0px 0px;
+}
+
+.how .item img {
+  margin: 0px 20px 0px 0px;
+}

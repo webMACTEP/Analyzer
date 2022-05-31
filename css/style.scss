@@ -1,0 +1,282 @@
+@import "_nullstyle.scss";
+
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+html,
+body {
+   font-family: "Poppins", sans-serif;
+}
+.container {
+   max-width: 1180px;
+   margin: 0px auto;
+}
+.row {
+   display: flex;
+   justify-content: space-between;
+}
+ul,
+li {
+   font-family: "Jost", sans-serif;
+}
+h1 {
+   font-family: "Epilogue";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 80px;
+   line-height: 110%;
+   text-transform: uppercase;
+   color: #081455;
+}
+.header {
+   padding: 54px 0px 0px 0px;
+   .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+
+   ul {
+      display: flex;
+      a {
+         color: #9c9ead;
+      }
+
+      li {
+         margin: 0px 20px;
+         font-family: "Poppins";
+         font-style: normal;
+         font-weight: 400;
+         font-size: 18px;
+         line-height: 160%;
+         /* identical to box height, or 29px */
+
+         text-align: center;
+
+         /* text */
+      }
+   }
+   .logo {
+      margin: -6px 0px 0px 0px;
+   }
+   .nav {
+      margin: 0px 0px 0px -7px;
+   }
+   .button {
+      display: block;
+      background: #02ade3;
+      font-family: "Epilogue";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 100%;
+      text-align: center;
+      letter-spacing: -0.02em;
+      text-transform: uppercase;
+
+      color: #f8f8f8;
+      padding: 14.5px 49px 14.5px 71px;
+
+      span {
+         position: relative;
+         &::before {
+            content: "";
+            width: 12px;
+            height: 13px;
+            position: absolute;
+            left: -22px;
+            top: 0px;
+            background: url("../img/signin.svg");
+         }
+      }
+   }
+}
+.intro {
+   padding: 123px 0px 0px 0px;
+   .container {
+      max-width: 1180px;
+   }
+   span {
+      display: block;
+      margin: -2px 0px 0px 0px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 160%;
+      letter-spacing: -0.02em;
+      color: #02ade3;
+   }
+   h1 {
+      margin: 30px 0px 0px -5px;
+   }
+   .introform {
+      margin: 60px 0px 0px 0px;
+      display: flex;
+      .email {
+         padding: 17px 0px 13px 50px;
+         border: 1px solid #dadade;
+         font-family: "Poppins";
+         font-style: normal;
+         font-weight: 400;
+         font-size: 18px;
+         line-height: 160%;
+         color: #9c9ead;
+      }
+      .submit {
+         padding: 17px 30px;
+         background: #02ade3;
+         font-family: "Epilogue";
+         font-style: normal;
+         font-weight: 500;
+         font-size: 18px;
+         line-height: 100%;
+         text-align: center;
+         letter-spacing: -0.02em;
+         text-transform: uppercase;
+         color: #ffffff;
+      }
+   }
+}
+.approach {
+   margin: 132px 0px 0px 0px;
+   background: #f9f9f9;
+   padding: 100px 0px 60px 0px;
+
+   span {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 160%;
+      color: #02ade3;
+   }
+   h2 {
+      margin: 20px 0px 0px 0px;
+      font-family: "Epilogue";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 130%;
+      text-transform: uppercase;
+      color: #081455;
+   }
+   h4 {
+      font-family: "Epilogue";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 100%;
+      text-transform: uppercase;
+      color: #02ade3;
+   }
+   p {
+      margin: 20px 0px 0px 0px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 160%;
+      color: #9c9ead;
+      max-width: 280px;
+   }
+   .title {
+      margin: 0px 0px 38px 0px;
+      padding: 0px 0px 70px 0px;
+      border-bottom: 1px solid #d9d9d9;
+   }
+   .row {
+      margin: 0px 0px 40px 0px;
+   }
+   .wrap {
+      width: 50%;
+      display: flex;
+      &.end {
+         justify-content: flex-end;
+      }
+   }
+   .item {
+      width: 280px;
+
+      &.ttt {
+         margin: 0px 0px 0px 10px;
+      }
+      &.rrr {
+         margin: 0px 10px 0px 0px;
+      }
+   }
+}
+.how {
+   margin: 180px 0px 0px 0px;
+
+   .title {
+      span {
+         font-family: "Poppins";
+         font-style: normal;
+         font-weight: 400;
+         font-size: 18px;
+         line-height: 160%;
+         color: #02ade3;
+      }
+      h2 {
+         margin: 20px 0px 70px 0px;
+         font-family: "Epilogue";
+         font-style: normal;
+         font-weight: 500;
+         font-size: 40px;
+         line-height: 130%;
+         text-transform: uppercase;
+         color: #081455;
+      }
+   }
+   .wrapper {
+      justify-content: space-between;
+      display: flex;
+      flex-wrap: wrap;
+   }
+   .row {
+      align-items: flex-start;
+   }
+   .item {
+      min-height: 301px;
+      margin: 0px 0px 20px 0px;
+      padding: 40px;
+      max-width: 580px;
+      background: #f9f9f9;
+
+      span {
+         margin: 2px 0px 0px 0px;
+         display: block;
+         font-family: "Poppins";
+         font-style: normal;
+         font-weight: 400;
+         font-size: 18px;
+         line-height: 130%;
+         color: #02ade3;
+      }
+      h4 {
+         margin: 13px 0px 0px 0px;
+         font-family: "Epilogue";
+         font-style: normal;
+         font-weight: 500;
+         font-size: 22px;
+         line-height: 130%;
+         text-transform: uppercase;
+         color: #02ade3;
+      }
+      p {
+         margin: 10px 0px 0px 0px;
+         font-family: "Poppins";
+         font-style: normal;
+         font-weight: 400;
+         font-size: 18px;
+         line-height: 160%;
+         color: #9c9ead;
+         &.over {
+            margin: 16px 0px 0px 0px;
+         }
+      }
+      img {
+         margin: 0px 20px 0px 0px;
+      }
+   }
+}
