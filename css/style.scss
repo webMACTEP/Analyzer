@@ -27,6 +27,26 @@ h1 {
    text-transform: uppercase;
    color: #081455;
 }
+.title {
+   span {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 160%;
+      color: #02ade3;
+   }
+   h2 {
+      margin: 20px 0px 70px 0px;
+      font-family: "Epilogue";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 130%;
+      text-transform: uppercase;
+      color: #081455;
+   }
+}
 .header {
    padding: 54px 0px 0px 0px;
    .container {
@@ -279,5 +299,40 @@ h1 {
       img {
          margin: 0px 20px 0px 0px;
       }
+   }
+}
+.features {
+   margin: 162px 0px 180px 0px;
+   .title {
+      margin: 0px 0px 0px 3px;
+   }
+   .wrapper {
+      padding: 0px 10px 0px 300px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+   }
+   .item {
+      max-width: 270px;
+      margin: 0px 0px 50px 0px;
+   }
+   p {
+      margin: 20px 0px 0px 0px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 160%;
+      color: #9c9ead;
+   }
+   h4 {
+      margin: 30px 0px 0px 0px;
+      font-family: "Epilogue";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 100%;
+      text-transform: uppercase;
+      color: #02ade3;
    }
 }

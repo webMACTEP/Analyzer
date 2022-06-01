@@ -108,6 +108,26 @@ h1 {
   color: #081455;
 }
 
+.title span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #02ade3;
+}
+
+.title h2 {
+  margin: 20px 0px 70px 0px;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #081455;
+}
+
 .header {
   padding: 54px 0px 0px 0px;
 }
@@ -409,4 +429,50 @@ h1 {
 
 .how .item img {
   margin: 0px 20px 0px 0px;
+}
+
+.features {
+  margin: 162px 0px 180px 0px;
+}
+
+.features .title {
+  margin: 0px 0px 0px 3px;
+}
+
+.features .wrapper {
+  padding: 0px 10px 0px 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.features .item {
+  max-width: 270px;
+  margin: 0px 0px 50px 0px;
+}
+
+.features p {
+  margin: 20px 0px 0px 0px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #9c9ead;
+}
+
+.features h4 {
+  margin: 30px 0px 0px 0px;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #02ade3;
 }
