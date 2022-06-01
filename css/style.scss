@@ -156,6 +156,20 @@ h1 {
          text-transform: uppercase;
          color: #ffffff;
       }
+      .text-field__icon {
+         position: relative;
+      }
+      .text-field__icon::before {
+         position: absolute;
+         left: 15px;
+         top: 16px;
+      }
+      .text-field__icon_email::before {
+         content: "";
+         width: 30px;
+         height: 30px;
+         background: url("../img/email.svg") no-repeat;
+      }
    }
 }
 .approach {
