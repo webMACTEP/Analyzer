@@ -302,7 +302,7 @@ h1 {
    }
 }
 .features {
-   margin: 162px 0px 180px 0px;
+   margin: 162px 0px 130px 0px;
    .title {
       margin: 0px 0px 0px 3px;
    }
@@ -315,6 +315,17 @@ h1 {
    .item {
       max-width: 270px;
       margin: 0px 0px 50px 0px;
+      &.rrr {
+         max-width: 280px;
+         margin-left: 10px;
+         img {
+            margin: 0px 0px 0px 5px;
+         }
+      }
+      .ns {
+         margin-left: 3px;
+         max-width: 280px;
+      }
    }
    p {
       margin: 20px 0px 0px 0px;
@@ -334,5 +345,55 @@ h1 {
       line-height: 100%;
       text-transform: uppercase;
       color: #02ade3;
+   }
+}
+.cases {
+   padding: 100px 0px 100px 0px;
+   background: #f9f9f9;
+   .wrap {
+      display: flex;
+      justify-content: end;
+      border-bottom: 1px solid #d9d9d9;
+      .title {
+         margin: 1px 124px 0px 0px;
+      }
+   }
+   .row {
+      justify-content: space-between;
+   }
+   .text {
+      padding: 39px 0px 0px 0px;
+      max-width: 580px;
+      &.b {
+         margin: -6px 0px 0px 0px;
+      }
+      &.c {
+         margin: 16px 0px 0px 0px;
+      }
+   }
+   h4 {
+      font-family: "Epilogue";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 100%;
+      text-transform: uppercase;
+      color: #02ade3;
+   }
+   p {
+      margin: 19px 0px 0px 0px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 160%;
+      color: #9c9ead;
+   }
+   .item {
+      padding: 80px 0px 80px 0px;
+      border-bottom: 1px solid #dadade;
+   }
+   .ns {
+      margin: 14px 0px 0px 0px;
    }
 }

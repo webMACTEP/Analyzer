@@ -432,7 +432,7 @@ h1 {
 }
 
 .features {
-  margin: 162px 0px 180px 0px;
+  margin: 162px 0px 130px 0px;
 }
 
 .features .title {
@@ -456,6 +456,20 @@ h1 {
   margin: 0px 0px 50px 0px;
 }
 
+.features .item.rrr {
+  max-width: 280px;
+  margin-left: 10px;
+}
+
+.features .item.rrr img {
+  margin: 0px 0px 0px 5px;
+}
+
+.features .item .ns {
+  margin-left: 3px;
+  max-width: 280px;
+}
+
 .features p {
   margin: 20px 0px 0px 0px;
   font-family: "Poppins";
@@ -475,4 +489,71 @@ h1 {
   line-height: 100%;
   text-transform: uppercase;
   color: #02ade3;
+}
+
+.cases {
+  padding: 100px 0px 100px 0px;
+  background: #f9f9f9;
+}
+
+.cases .wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.cases .wrap .title {
+  margin: 1px 124px 0px 0px;
+}
+
+.cases .row {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cases .text {
+  padding: 39px 0px 0px 0px;
+  max-width: 580px;
+}
+
+.cases .text.b {
+  margin: -6px 0px 0px 0px;
+}
+
+.cases .text.c {
+  margin: 16px 0px 0px 0px;
+}
+
+.cases h4 {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #02ade3;
+}
+
+.cases p {
+  margin: 19px 0px 0px 0px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #9c9ead;
+}
+
+.cases .item {
+  padding: 80px 0px 80px 0px;
+  border-bottom: 1px solid #dadade;
+}
+
+.cases .ns {
+  margin: 14px 0px 0px 0px;
 }
