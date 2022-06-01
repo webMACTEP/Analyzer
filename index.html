@@ -250,12 +250,20 @@
 
          <form action="">
             <div class="row">
-               <input name="name" type="text" class="name" placeholder="Name" aria-label="Name">
-               <input name="email" type="text" class="email" placeholder="Email" aria-label="Email">
+
+               <div class="text-field__icon text-field__icon_name">
+                  <input name="name" type="text" class="name" placeholder="Name">
+               </div>
+               <div class="text-field__icon text-field__icon_email">
+                  <input name="email" type="text" class="email" placeholder="Email" aria-label="Email">
+               </div>
             </div>
-            <input name="company" type="text" class="company" placeholder="Company" aria-label="Company">
-            <!-- <input name="message" type="text" class="message" placeholder="Message" aria-label="Message"> -->
-            <textarea class="message" name="message" id="" cols="" rows="10" placeholder="Message"></textarea>
+            <div class="text-field__icon text-field__icon_company">
+               <input name="company" type="text" class="company" placeholder="Company" aria-label="Company">
+            </div>
+            <div class="text-field__icon text-field__icon_message">
+               <textarea class="message" name="message" id="" cols="" rows="10" placeholder="Message"></textarea>
+            </div>
             <div class="row">
                <p>By clicking submit, you consent to allow G2M Insights to store and process the personal information
                   submitted above to handle your request. For more information please review our <a href=""> Privacy

@@ -424,24 +424,85 @@ h1 {
    textarea {
       margin: 0px 0px 20px 0px;
       background: #ffffff;
-      padding: 17px 0px 13px 50px;
+      padding: 17px 0px 18px 50px;
       border: 1px solid #dadade;
       font-family: "Poppins";
       font-style: normal;
       font-weight: 400;
-      font-size: 18px;
-      line-height: 160%;
+      font-size: 16px;
+      line-height: 150%;
       color: #9c9ead;
    }
+
    .name,
    .email {
       width: 430px;
    }
+
    .company {
       width: 100%;
    }
    .message {
       width: 100%;
       height: 170px;
+      margin: 0px 0px 29px 0px;
+   }
+   .submit {
+      width: 430px;
+      padding: 20px 0px;
+      background: #02ade3;
+      font-family: "Epilogue";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 100%;
+      text-align: center;
+      letter-spacing: -0.02em;
+      text-transform: uppercase;
+      color: #ffffff;
+   }
+   p {
+      max-width: 430px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 150%;
+      color: #9c9ead;
+      a {
+         color: #02ade3;
+      }
+   }
+   .text-field__icon {
+      position: relative;
+   }
+   .text-field__icon::before {
+      position: absolute;
+      left: 15px;
+      top: 16px;
+   }
+   .text-field__icon_name::before {
+      content: "";
+      width: 30px;
+      height: 30px;
+      background: url("../img/name.svg") no-repeat;
+   }
+   .text-field__icon_email::before {
+      content: "";
+      width: 30px;
+      height: 30px;
+      background: url("../img/email.svg") no-repeat;
+   }
+   .text-field__icon_company::before {
+      content: "";
+      width: 30px;
+      height: 30px;
+      background: url("../img/company.svg") no-repeat;
+   }
+   .text-field__icon_message::before {
+      content: "";
+      width: 30px;
+      height: 30px;
+      background: url("../img/message.svg") no-repeat;
    }
 }
