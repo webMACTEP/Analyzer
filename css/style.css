@@ -223,6 +223,7 @@ h1 {
   font-size: 18px;
   line-height: 160%;
   color: #9c9ead;
+  max-width: 280px;
 }
 
 .intro .introform .submit {
