@@ -557,3 +557,60 @@ h1 {
 .cases .ns {
   margin: 14px 0px 0px 0px;
 }
+
+.partners {
+  margin: 180px 0px 180px 0px;
+}
+
+.partners .row {
+  max-width: 1087px;
+  margin: 0px auto;
+}
+
+.partners .a {
+  margin-left: -6px;
+}
+
+.partners .b {
+  margin-right: 21px;
+}
+
+.partners .c {
+  margin-right: 3px;
+}
+
+.partners .d {
+  margin-right: 6px;
+}
+
+.contact form {
+  padding: 0px 0px 0px 300px;
+}
+
+.contact input,
+.contact textarea {
+  margin: 0px 0px 20px 0px;
+  background: #ffffff;
+  padding: 17px 0px 13px 50px;
+  border: 1px solid #dadade;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #9c9ead;
+}
+
+.contact .name,
+.contact .email {
+  width: 430px;
+}
+
+.contact .company {
+  width: 100%;
+}
+
+.contact .message {
+  width: 100%;
+  height: 170px;
+}
