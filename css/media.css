@@ -1,4 +1,15 @@
 @media (max-width: 1024px) {
+  .approach {
+    padding: 82px 0px 60px 0px;
+    margin: 140px 0px 0px 0px;
+  }
+  .approach .title {
+    padding: 0px 0px 60px 0px;
+  }
+  .approach h2 {
+    margin: 9px 0px 0px 0px;
+    font-size: 35px;
+  }
   .container {
     max-width: 880px;
   }

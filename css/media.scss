@@ -1,6 +1,17 @@
 @media (max-width: 1440px) {
 }
 @media (max-width: 1024px) {
+   .approach {
+      .title {
+         padding: 0px 0px 60px 0px;
+      }
+      h2 {
+         margin: 9px 0px 0px 0px;
+         font-size: 35px;
+      }
+      padding: 82px 0px 60px 0px;
+      margin: 140px 0px 0px 0px;
+   }
    .container {
       max-width: 880px;
    }
