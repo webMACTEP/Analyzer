@@ -1,1 +1,32 @@
-/* No CSS */
+@media (max-width: 1024px) {
+  .container {
+    max-width: 880px;
+  }
+  .intro .container {
+    max-width: 880px;
+  }
+  .name,
+  .email {
+    width: 100%;
+  }
+  .contact form {
+    padding: 0px 0px 0px 0px;
+  }
+  .header .nav {
+    display: none;
+  }
+  .intro .row {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .intro img {
+    max-width: 450px;
+  }
+  .intro .introform {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}

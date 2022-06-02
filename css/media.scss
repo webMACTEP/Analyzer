@@ -1,0 +1,31 @@
+@media (max-width: 1440px) {
+}
+@media (max-width: 1024px) {
+   .container {
+      max-width: 880px;
+   }
+   .intro .container {
+      max-width: 880px;
+   }
+   .name,
+   .email {
+      width: 100%;
+   }
+   .contact form {
+      padding: 0px 0px 0px 0px;
+   }
+   .header .nav {
+      display: none;
+   }
+   .intro {
+      .row {
+         align-items: flex-start;
+      }
+      img {
+         max-width: 450px;
+      }
+      .introform {
+         flex-direction: column;
+      }
+   }
+}
