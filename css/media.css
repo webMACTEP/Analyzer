@@ -2,9 +2,6 @@
   .container {
     max-width: 880px;
   }
-  .intro .container {
-    max-width: 880px;
-  }
   .name,
   .email {
     width: 100%;
@@ -12,8 +9,35 @@
   .contact form {
     padding: 0px 0px 0px 0px;
   }
+  .header {
+    padding: 20px 0px 0px 0px;
+  }
   .header .nav {
     display: none;
+  }
+  .intro {
+    padding: 92px 0px 0px 0px;
+  }
+  .intro .introform {
+    max-width: 355px;
+    margin: 30px 0px 0px 0px;
+  }
+  .intro .introform .submit {
+    padding: 20px 30px;
+  }
+  .intro .introform .email {
+    min-width: 355px;
+    margin: 0px 0px 20px 0px;
+  }
+  .intro h1 {
+    margin: 30px 0px 0px 0px;
+    font-size: 70px;
+  }
+  .intro span {
+    font-size: 20px;
+  }
+  .intro .container {
+    max-width: 880px;
   }
   .intro .row {
     -webkit-box-align: start;
@@ -21,6 +45,7 @@
             align-items: flex-start;
   }
   .intro img {
+    margin: 8px 0px 0px 0px;
     max-width: 450px;
   }
   .intro .introform {
