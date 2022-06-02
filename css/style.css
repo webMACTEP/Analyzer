@@ -514,12 +514,13 @@ h1 {
 }
 
 .cases .wrap {
+  min-width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
-          justify-content: end;
+          justify-content: flex-end;
   border-bottom: 1px solid #d9d9d9;
 }
 
