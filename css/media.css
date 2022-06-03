@@ -1,4 +1,30 @@
 @media (max-width: 1439px) {
+  .how {
+    margin: 142px 0px 0px 0px;
+  }
+  .how .item {
+    margin: 0px 0px 98px 0px;
+    padding: 30px 30px 0px 32px;
+    max-width: 430px;
+  }
+  .how .item .sss {
+    margin-top: 15px;
+  }
+  .how .item .t {
+    display: none;
+  }
+  .how .item h4 {
+    line-height: 140%;
+    margin: 18px 0px 0px 0px;
+    font-size: 20px;
+  }
+  .how .item h4.b {
+    margin: 13px 0px 0px 0px;
+  }
+  .how .title h2 {
+    margin: 9px 0px 58px 0px;
+    font-size: 35px;
+  }
   .approach {
     padding: 82px 0px 40px 0px;
     margin: 140px 0px 0px 0px;
