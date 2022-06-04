@@ -223,6 +223,52 @@
    }
 }
 @media (max-width: 1023px) {
+   .contact {
+      padding: 0px 0px 100px 0px;
+      p {
+         max-width: 315px;
+      }
+      .submit {
+         height: 60px;
+         width: 345px;
+      }
+      .name,
+      .email {
+         width: 321px;
+      }
+      .a {
+         display: none;
+      }
+      .title {
+         h2 {
+            max-width: 350px;
+            margin: 9px 0px 50px 0px;
+            font-size: 30px;
+         }
+         span {
+            font-size: 16px;
+         }
+      }
+   }
+   .partners {
+      .row {
+         margin: 10px 0px 0px 0px;
+      }
+      img {
+         margin-top: 4px;
+         max-height: 34px;
+      }
+      margin: 121px 0px 124px 0px;
+      .title {
+         h2 {
+            margin: 9px 0px 50px 0px;
+            font-size: 30px;
+         }
+         span {
+            font-size: 16px;
+         }
+      }
+   }
    .cases {
       p {
          max-width: 303px;
@@ -405,9 +451,5 @@
    }
    .container {
       max-width: 660px;
-   }
-   .contact .name,
-   .contact .email {
-      width: 100%;
    }
 }
