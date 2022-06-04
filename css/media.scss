@@ -1,6 +1,51 @@
 @media (max-width: 1919px) {
 }
 @media (max-width: 1439px) {
+   .cases {
+      .text {
+         padding: 9px 0px 0px 0px;
+      }
+      .item {
+         &.a {
+            padding: 41px 0px 51px 0px;
+            img {
+               margin: 9px 0px 0px 2px;
+            }
+         }
+         &.b {
+            padding: 48px 0px 51px 0px;
+            img {
+               margin: 2px 0px 0px 3px;
+            }
+         }
+         &.c {
+            padding: 26px 0px 51px 0px;
+            img {
+               margin: 23px 0px 0px 3px;
+            }
+         }
+      }
+      .wrap {
+         .title {
+            margin: 1px 29px 0px 0px;
+         }
+      }
+      p {
+         max-width: 428px;
+      }
+      img {
+         max-width: 380px;
+      }
+      h4 {
+         font-size: 20px;
+      }
+      h2 {
+         margin: 9px 0px 59px 0px;
+         font-size: 35px;
+      }
+      padding: 80px 0px 80px 0px;
+   }
+
    .features {
       .item {
          margin: 0px 0px 42px 0px;
