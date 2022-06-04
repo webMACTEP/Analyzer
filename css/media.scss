@@ -223,6 +223,38 @@
    }
 }
 @media (max-width: 1023px) {
+   .footer {
+      .cont {
+         .a {
+            display: none;
+         }
+         margin-right: 5px;
+         p {
+            font-size: 16px;
+         }
+      }
+      .menu {
+         margin-left: -28px;
+      }
+      .wrapper {
+         li {
+            font-size: 16px;
+         }
+         position: relative;
+         padding: 4px 0px 56px 0px;
+         .social {
+            position: absolute;
+            bottom: 38px;
+            right: 155px;
+         }
+      }
+      padding: 52px 0px 50px 0px;
+      .logo {
+         img {
+            width: 120px;
+         }
+      }
+   }
    .contact {
       padding: 0px 0px 100px 0px;
       p {
