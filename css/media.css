@@ -1,3 +1,7 @@
+.abr {
+  display: none;
+}
+
 @media (max-width: 1439px) {
   .footer {
     padding: 80px 0px 60px 0px;
@@ -214,6 +218,41 @@
 }
 
 @media (max-width: 1023px) {
+  .features {
+    margin: 102px 0px 100px 0px;
+  }
+  .features .abr {
+    display: block;
+  }
+  .features .item {
+    max-width: 203px;
+    margin: 0px 0px 31px 0px;
+  }
+  .features .item.rrr {
+    margin-left: -15px;
+    max-width: 203px;
+  }
+  .features h4 {
+    margin: 10px 0px 0px 0px;
+  }
+  .features .b {
+    display: none;
+  }
+  .features p {
+    font-size: 16px;
+  }
+  .features .title {
+    padding: 0px 0px 0px 0px;
+  }
+  .features .title h2 {
+    margin: 9px 0px 51px -4px;
+    max-width: 520px;
+    font-size: 30px;
+  }
+  .features .title span {
+    margin: 0px 0px 0px -4px;
+    font-size: 16px;
+  }
   .how {
     margin: 120px 0px 0px 0px;
   }

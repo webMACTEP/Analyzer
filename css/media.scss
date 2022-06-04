@@ -1,3 +1,7 @@
+.abr {
+   display: none;
+}
+
 @media (max-width: 1919px) {
 }
 @media (max-width: 1439px) {
@@ -219,6 +223,43 @@
    }
 }
 @media (max-width: 1023px) {
+   .features {
+      .abr {
+         display: block;
+      }
+
+      .item {
+         max-width: 203px;
+         margin: 0px 0px 31px 0px;
+         &.rrr {
+            margin-left: -15px;
+            max-width: 203px;
+         }
+      }
+      margin: 102px 0px 100px 0px;
+      h4 {
+         margin: 10px 0px 0px 0px;
+      }
+      .b {
+         display: none;
+      }
+      p {
+         font-size: 16px;
+      }
+      .title {
+         padding: 0px 0px 0px 0px;
+
+         h2 {
+            margin: 9px 0px 51px -4px;
+            max-width: 520px;
+            font-size: 30px;
+         }
+         span {
+            margin: 0px 0px 0px -4px;
+            font-size: 16px;
+         }
+      }
+   }
    .how {
       .item {
          min-height: 203px;
