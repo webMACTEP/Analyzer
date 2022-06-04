@@ -218,8 +218,33 @@
 }
 
 @media (max-width: 1023px) {
+  .cases {
+    padding: 60px 0px 60px 0px;
+  }
+  .cases p {
+    max-width: 303px;
+    font-size: 16px;
+  }
+  .cases img {
+    max-width: 305px;
+  }
+  .cases .wrap {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .cases .title {
+    padding: 0px 0px 0px 0px;
+  }
+  .cases .title h2 {
+    margin: 9px 0px 50px 0px;
+    font-size: 30px;
+  }
+  .cases .title span {
+    font-size: 16px;
+  }
   .features {
-    margin: 102px 0px 100px 0px;
+    margin: 102px 0px 90px 0px;
   }
   .features .abr {
     display: block;

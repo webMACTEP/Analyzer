@@ -223,6 +223,30 @@
    }
 }
 @media (max-width: 1023px) {
+   .cases {
+      p {
+         max-width: 303px;
+         font-size: 16px;
+      }
+      img {
+         max-width: 305px;
+      }
+      .wrap {
+         justify-content: flex-start;
+      }
+      padding: 60px 0px 60px 0px;
+      .title {
+         padding: 0px 0px 0px 0px;
+
+         h2 {
+            margin: 9px 0px 50px 0px;
+            font-size: 30px;
+         }
+         span {
+            font-size: 16px;
+         }
+      }
+   }
    .features {
       .abr {
          display: block;
@@ -236,7 +260,7 @@
             max-width: 203px;
          }
       }
-      margin: 102px 0px 100px 0px;
+      margin: 102px 0px 90px 0px;
       h4 {
          margin: 10px 0px 0px 0px;
       }
