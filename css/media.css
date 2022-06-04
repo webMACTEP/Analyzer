@@ -214,6 +214,43 @@
 }
 
 @media (max-width: 1023px) {
+  .how {
+    margin: 120px 0px 0px 0px;
+  }
+  .how .item {
+    min-height: 203px;
+    height: 203px;
+    max-width: 662px;
+  }
+  .how .item img {
+    margin: 0px 28px 0px 0px;
+  }
+  .how .item p {
+    font-size: 16px;
+  }
+  .how .item h4 {
+    margin: 10px 0px -12px 0px;
+    font-size: 20px;
+  }
+  .how .item h4.c {
+    margin: 10px 0px -6px 0px;
+  }
+  .how .item h4.b {
+    margin: 10px 0px -6px 0px;
+  }
+  .how .item span {
+    font-size: 16px;
+  }
+  .how .title {
+    padding: 0px 0px 0px 0px;
+  }
+  .how .title h2 {
+    font-size: 30px;
+    margin: 9px 0px 51px 0px;
+  }
+  .how .title span {
+    font-size: 16px;
+  }
   .approach {
     padding: 60px 0px 17px 0px;
     margin: 120px 0px 0px 0px;
