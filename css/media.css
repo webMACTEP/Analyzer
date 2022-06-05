@@ -485,25 +485,80 @@
 }
 
 @media (max-width: 767px) {
-  .how .item p.over {
-    margin: 8px 0px 0px 0px;
+  .features {
+    margin: 55px 0px 10px 0px;
+  }
+  .features .item {
+    max-width: 285px;
+    margin: 0px 0px 32px 0px;
     text-align: center;
+  }
+  .features .item .b {
+    display: block;
+  }
+  .features .item .ns {
+    margin-left: 0;
+    max-width: 285px;
+  }
+  .features .item.rrr {
+    margin-left: 0;
+    max-width: 285px;
+  }
+  .features .item .abr {
+    display: none;
+  }
+  .features .wrapper {
+    padding: 0px 0px 0px 0px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .features span {
+    display: block;
+    text-align: center;
+  }
+  .features .title h2 {
+    text-align: center;
+    font-size: 25px;
   }
   .how {
     margin: 85px 0px 0px 0px;
+  }
+  .how .item h4.c {
+    margin: 12px 0px -3px 0px;
+  }
+  .how .item h4.b {
+    margin: 14px 0px -4px 0px;
+  }
+  .how .item p.over {
+    margin: 5px 0px 18px 0px;
+    text-align: center;
   }
   .how .row {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
+  .how .wrapper {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .how .item {
-    padding: 30px 30px 55px 32px;
-    height: auto;
+    margin: 0px 0px 15px 0px;
+    padding: 30px 30px 40px 32px;
+    height: 400px;
+  }
+  .how .item .sss {
+    margin: 9px 0px 0px 4px;
+  }
+  .how .item p {
+    max-width: 250px;
+    text-align: center;
   }
   .how .item h4 {
-    line-height: 100%;
-    margin: 13px 0px 0px 0px;
+    line-height: 130%;
+    margin: 8px 0px 0px 0px;
     text-align: center;
   }
   .how .item span {
