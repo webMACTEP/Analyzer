@@ -483,3 +483,136 @@
     max-width: 660px;
   }
 }
+
+@media (max-width: 767px) {
+  .how .item p.over {
+    margin: 8px 0px 0px 0px;
+    text-align: center;
+  }
+  .how {
+    margin: 85px 0px 0px 0px;
+  }
+  .how .row {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .how .item {
+    padding: 30px 30px 55px 32px;
+    height: auto;
+  }
+  .how .item h4 {
+    line-height: 100%;
+    margin: 13px 0px 0px 0px;
+    text-align: center;
+  }
+  .how .item span {
+    display: block;
+    text-align: center;
+  }
+  .how .item img {
+    width: 155px;
+    margin: 10px 0px 18px 0px;
+  }
+  .how .title span {
+    display: block;
+    text-align: center;
+  }
+  .how .title h2 {
+    text-align: center;
+    font-size: 25px;
+  }
+  .approach {
+    padding: 63px 0px 0px 0px;
+  }
+  .approach .item.ttt {
+    margin: 0px 0px 0px 0px;
+  }
+  .approach .item.rrr {
+    margin: 0px 0px 41px 0px;
+  }
+  .approach .item {
+    margin: 0px 0px 43px 0px;
+    width: 285px;
+  }
+  .approach .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .approach .wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .approach .title {
+    padding: 0px 0px 49px 0px;
+  }
+  .approach h2 {
+    margin: 10px 0px 0px 0px;
+    font-size: 25px;
+  }
+  .approach .container {
+    max-width: 285px;
+  }
+  .intro {
+    padding: 72px 0px 0px 0px;
+  }
+  .intro .container {
+    min-height: 500px;
+  }
+  .intro .introform {
+    position: absolute;
+    bottom: -73px;
+  }
+  .intro .introform .submit {
+    padding: 22px 30px;
+    font-size: 16px;
+  }
+  .intro img {
+    margin: 52px 0px 0px 0px;
+    max-width: 285px;
+  }
+  .intro span {
+    font-size: 16px;
+  }
+  .intro h1 {
+    margin: 25px 0px 0px 0px;
+    max-width: 285px;
+    font-size: 35px;
+  }
+  .header {
+    padding: 36px 0px 0px 35px;
+  }
+  .header .button {
+    display: none;
+  }
+  .contact .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container {
+    position: relative;
+    max-width: 325px;
+  }
+  .intro .introform .submit,
+  .intro .introform .email,
+  .contact .submit {
+    max-width: 285px;
+    min-width: 285px;
+    width: 285px;
+  }
+  .how .row,
+  .partners .row,
+  .cases .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
