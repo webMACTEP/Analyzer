@@ -545,6 +545,7 @@
             justify-content: center;
   }
   .how .item {
+    width: 325px;
     margin: 0px 0px 15px 0px;
     padding: 30px 30px 40px 32px;
     height: 400px;
