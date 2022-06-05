@@ -485,6 +485,32 @@
 }
 
 @media (max-width: 767px) {
+  .contact {
+    padding: 0px 0px 50px 0px;
+  }
+  .contact .submit {
+    margin: 20px 0px 0px 0px;
+  }
+  .contact input,
+  .contact textarea {
+    margin: 0px 0px 14px 0px;
+  }
+  .contact .name,
+  .contact .email {
+    width: 100%;
+  }
+  .contact .container {
+    max-width: 285px;
+  }
+  .contact .title {
+    margin: 0px 0px 0px 0px;
+  }
+  .contact .title span {
+    display: block;
+  }
+  .contact .title h2 {
+    font-size: 25px;
+  }
   .partners {
     margin: 70px 0px 50px 0px;
   }

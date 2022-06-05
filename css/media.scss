@@ -486,6 +486,32 @@
    }
 }
 @media (max-width: 767px) {
+   .contact {
+      padding: 0px 0px 50px 0px;
+      .submit {
+         margin: 20px 0px 0px 0px;
+      }
+      input,
+      textarea {
+         margin: 0px 0px 14px 0px;
+      }
+      .name,
+      .email {
+         width: 100%;
+      }
+      .container {
+         max-width: 285px;
+      }
+      .title {
+         margin: 0px 0px 0px 0px;
+         span {
+            display: block;
+         }
+         h2 {
+            font-size: 25px;
+         }
+      }
+   }
    .partners {
       a {
          margin: 0px 0px 40px 0px;
