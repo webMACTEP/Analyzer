@@ -486,13 +486,14 @@
 
 @media (max-width: 767px) {
   .partners {
-    margin: 70px 0px 124px 0px;
+    margin: 70px 0px 50px 0px;
   }
   .partners a {
     margin: 0px 0px 40px 0px;
   }
   .partners .row {
-    margin: -5px 0px 0px 0px;
+    max-width: 285px;
+    margin: -5px auto 0px auto;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
