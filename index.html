@@ -11,6 +11,7 @@
 
    <script src="js/jquery.min.js"></script>
    <script src="js/script.js"></script>
+
 </head>
 
 <body>
@@ -37,8 +38,10 @@
          <div class="row">
             <div>
                <span>Predictive analytics made simple</span>
-               <h1>
-                  Make decisions better|
+
+               <h1 class="hero-title">
+                  Make decisions <br>
+                  <strong></strong>
                </h1>
                <form class="introform" action="">
                   <div class="text-field__icon text-field__icon_email">
@@ -317,6 +320,18 @@
          </div>
       </div>
    </footer>
+   <script src="js/typeit.min.js"></script>
+   <script>
+      jQuery('.hero-title strong').typeIt({
+         strings: ['SMARTER', 'FASTER', 'BETTER'],
+         breakLines: false,
+         speed: 300,
+         autoStart: true,
+         loop: true,
+         nextStringDelay: [1000, 1000, 1000],
+         loopDelay: 2000
+      }); 
+   </script>
 </body>
 
 </html>
