@@ -52,6 +52,23 @@ h1 {
    position: relative;
 }
 .header {
+   .subheader {
+      display: none;
+      padding: 20px 0px;
+      background: #02ade3;
+      &.active {
+         display: block;
+      }
+      ul {
+         margin: 0px 0px 0px -22px;
+      }
+      li {
+         margin: 0px 25px;
+      }
+      a {
+         color: #fff;
+      }
+   }
    position: fixed;
    top: 0;
    width: 100%;
