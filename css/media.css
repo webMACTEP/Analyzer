@@ -178,7 +178,7 @@
     padding: 0px 0px 0px 0px;
   }
   .header {
-    height: 77px;
+    height: 87px;
     padding: 18px 0px 0px 0px;
   }
   .header .burger {
@@ -485,6 +485,7 @@
     font-size: 20px;
   }
   .header {
+    height: 77px;
     padding: 16px 0px 0px 0px;
   }
   .header .burger {
