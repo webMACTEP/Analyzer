@@ -150,6 +150,10 @@ h1 {
   background: #02ade3;
 }
 
+.header .subheader .cubcontacts {
+  display: none;
+}
+
 .header .subheader.active {
   display: block;
 }

@@ -813,6 +813,71 @@
     width: 100vw;
     height: 100vh;
   }
+  .header .subheader .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .header .subheader .cubcontacts {
+    margin: 20px 0 0 0;
+    display: block;
+    text-align: center;
+  }
+  .header .subheader .cubcontacts .row {
+    width: 130px;
+    margin: 16px auto 0px auto;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .header .subheader .cubcontacts p {
+    margin: 22px 0px 0px 0px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .header .subheader .cubcontacts h3 {
+    margin: 50px 0px 0px 0px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .header .subheader .cubcontacts .sign {
+    position: relative;
+    margin: 0px auto;
+    display: block;
+    width: 184px;
+    padding: 14px 50px 14px 70px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #02ade3;
+    background: #ffffff;
+  }
+  .header .subheader .cubcontacts .sign::before {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 13px;
+    background: url("../img/sc.svg");
+    left: 52px;
+    top: 16px;
+  }
   .header .subheader li {
     margin: 0px 0px 30px 0px;
   }
