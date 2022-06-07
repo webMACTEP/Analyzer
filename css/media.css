@@ -5,8 +5,8 @@
 .burger {
   display: none;
   position: absolute;
-  left: 196px;
-  top: 8px;
+  left: 192px;
+  top: -2px;
 }
 
 @media (max-width: 1439px) {
@@ -489,8 +489,8 @@
     padding: 16px 0px 0px 0px;
   }
   .header .burger {
-    left: 170px;
-    top: 13px;
+    left: 166px;
+    top: 1px;
   }
   .header .logo {
     margin: -6px 0px 0px 0px;
@@ -802,8 +802,8 @@
     padding: 36px 0px 0px 35px;
   }
   .header .burger {
-    left: 253px;
-    top: -7px;
+    left: 249px;
+    top: -20px;
   }
   .header .button {
     display: none;
