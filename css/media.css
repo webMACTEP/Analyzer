@@ -1,5 +1,12 @@
 .abr {
+  display: block;
+}
+
+.burger {
   display: none;
+  position: absolute;
+  left: 196px;
+  top: 8px;
 }
 
 @media (max-width: 1439px) {
@@ -171,13 +178,20 @@
     padding: 0px 0px 0px 0px;
   }
   .header {
-    padding: 20px 0px 0px 0px;
+    height: 77px;
+    padding: 18px 0px 0px 0px;
+  }
+  .header .burger {
+    display: block;
+  }
+  .header .container {
+    position: relative;
   }
   .header .nav {
     display: none;
   }
   .intro {
-    padding: 92px 0px 0px 0px;
+    margin: 159px 0px 0px 0px;
   }
   .intro .introform {
     max-width: 355px;
@@ -422,7 +436,7 @@
     font-size: 16px;
   }
   .intro {
-    padding: 66px 0px 0px 0px;
+    margin: 129px 0px 0px 0px;
   }
   .intro img {
     max-width: 460px;
@@ -472,6 +486,10 @@
   }
   .header {
     padding: 16px 0px 0px 0px;
+  }
+  .header .burger {
+    left: 170px;
+    top: 13px;
   }
   .header .logo {
     margin: -6px 0px 0px 0px;
@@ -754,7 +772,7 @@
     max-width: 285px;
   }
   .intro {
-    padding: 72px 0px 0px 0px;
+    margin: 118px 0px 0px 0px;
   }
   .intro .container {
     min-height: 500px;
@@ -781,6 +799,10 @@
   }
   .header {
     padding: 36px 0px 0px 35px;
+  }
+  .header .burger {
+    left: 253px;
+    top: -7px;
   }
   .header .button {
     display: none;
